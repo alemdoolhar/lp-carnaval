@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
   	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script>
+    <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,600italic,700,800,700italic' rel='stylesheet' type='text/css'/>
   	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet"/>
@@ -17,6 +17,7 @@
     <script type="text/javascript">
       $(document).ready(function(e){
         // Instances
+        new RDStationForms('lp-carnaval-70cf0e1ea3e4f6cba5fd', 'UA-151917315-1').createForm();
         $('.modal').modal();
       });
     </script>
@@ -240,7 +241,7 @@
     <div id="lp" class="modal bottom-sheet" style="max-height: 100%; background-color: #e2e2e2;">
       <div class="modal-content">
         <div class="container">
-            <div class="pipedriveWebForms" style="height: 589px;"  data-pd-webforms="https://pipedrivewebforms.com/form/400d8829df2277b5a0187a4acb03fcf07474309"></div>    
+          <div role="main" id="lp-carnaval-70cf0e1ea3e4f6cba5fd"></div>    
         </div>
       </div>
     </div>
